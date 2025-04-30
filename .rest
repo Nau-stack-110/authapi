@@ -1,0 +1,20 @@
+# http://localhost:8000/api/user_profile/
+
+# {
+#     "email": "rehana@gmail.com",
+#     "username": "rehana",
+#     "tel": "0331105567",
+#     "password": "naunau00",
+#     "password2": "naunau00"
+# }
+http://localhost:8000/api/me/
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQ2MTE5NzYwLCJpYXQiOjE3NDYwMzMzNjAsImp0aSI6IjQ1YzRmZTNmMzNjYTQ2NzM4NjFkNjc2NDExN2I3OWI1IiwidXNlcl9pZCI6MiwiZnVsbG5hbWUiOiIiLCJ1c2VybmFtZSI6ImxlYmVtYSIsImVtYWlsIjoibGViZW1hQGdtYWlsLmNvbSIsInRlbCI6IjAzODU1NTMyNzYiLCJiaW8iOiIiLCJpbWFnZSI6ImRlZmF1bHQuanBnIiwidmVyaWZpZWQiOmZhbHNlLCJpc19zdXBlcnVzZXIiOmZhbHNlLCJpc19zdGFmZiI6ZmFsc2V9.tAtFhsMcghpQ8oTIHU4wyKVBpNU3P6iWNrSqXbZf9RM
+
+# POST http://localhost:8000/token/
+# Content-Type: application/json
+
+# {
+#     "username": "0385553276",
+#     "password": "naunau00"
+# }
