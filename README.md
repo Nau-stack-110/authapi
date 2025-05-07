@@ -58,9 +58,9 @@ APIAuth is a secure authentication API built with Django REST Framework, utilizi
 
 | Endpoint               | Method | Description                     |
 |------------------------|--------|---------------------------------|
-| `/api/register/`       | POST   | Register a new user             |
-| `/api/login/`          | POST   | Login and receive JWT tokens    |
-| `/api/token/refresh/`  | POST   | Refresh JWT access token        |
+| `/register/`       | POST   | Register a new user             |
+| `/token/`          | POST   | Login and receive JWT tokens    |
+| `/token/refresh/`  | POST   | Refresh JWT access token        |
 | `/api/me/`             | GET    | List user (authenticated)  |   
 
 
